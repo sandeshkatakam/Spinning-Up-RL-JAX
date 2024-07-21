@@ -13,6 +13,7 @@ import jax
 from copy import deepcopy
 from textwrap import dedent
 
+print("Changes for Git")
 
 RUN_KEYS = ['num_cpu', 'data_dir', 'datestamp']
 
