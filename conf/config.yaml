@@ -1,0 +1,9 @@
+# conf/config.yaml
+env:
+  name: "CartPole-v1"
+policy:
+  learning_rate: 0.01
+value_function:
+  learning_rate: 0.01
+gamma: 0.99
+num_episodes: 1000
