@@ -2,6 +2,13 @@
 ## **NOTE: [Development in Progress]**  
 Inspired by OpenAI Spinning Up RL Algorithms Educational Resource implemented in JAX
 
+[![Tests](https://github.com/sandeshkatakam/SpinningUp-RL-JAX/actions/workflows/tests.yml/badge.svg)](https://github.com/sandeshkatakam/SpinningUp-RL-JAX/actions/workflows/tests.yml)
+[![Release](https://github.com/sandeshkatakam/SpinningUp-RL-JAX/actions/workflows/release.yml/badge.svg)](https://github.com/sandeshkatakam/SpinningUp-RL-JAX/actions/workflows/release.yml)
+[![Docs](https://github.com/sandeshkatakam/SpinningUp-RL-JAX/actions/workflows/docs.yml/badge.svg)](https://github.com/sandeshkatakam/SpinningUp-RL-JAX/actions/workflows/docs.yml)
+[![codecov](https://codecov.io/gh/sandeshkatakam/SpinningUp-RL-JAX/branch/main/graph/badge.svg)](https://codecov.io/gh/sandeshkatakam/SpinningUp-RL-JAX)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 <p align="center">
   <img src="./assets/imgs/spinninguprljaxlogo.png">
