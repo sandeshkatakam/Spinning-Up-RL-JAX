@@ -76,6 +76,9 @@ plugins:
     - mkdocstrings:
         handlers:
             python:
+                paths: [src]
+                options:
+                    show_source: true
                 setup_commands:
                     - import pytkdocs_tweaks
                     - pytkdocs_tweaks.main()
@@ -95,10 +98,18 @@ plugins:
 
 nav:
     - 'index.md'
+    - Algorithms:
+      - 'algorithms/index.md'
+    - Configuration:
+      - 'config/index.md'
+    - Contributing:
+      - 'contributing.md'
     - Examples:
+      -  'examples/index.md'
       - 'examples/example1.md'
       - 'examples/example2.md'
-    - Full API:
+    - API Reference:
+      - Environment Wrapper: 'api/env_wrapper.md'
       - 'api/module1.md'
       - 'api/module2.md'
     - Misc:
