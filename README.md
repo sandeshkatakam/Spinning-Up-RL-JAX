@@ -1,6 +1,7 @@
 # SpinningUp-RL-JAX
-
+## **NOTE: [Development in Progress]**  
 Inspired by OpenAI Spinning Up RL Algorithms Educational Resource implemented in JAX
+
 
 <p align="center">
   <img src="./assets/imgs/spinninguprljaxlogo.png">
@@ -23,8 +24,8 @@ A comprehensive reinforcement learning library implemented in JAX, inspired by O
 
 | Algorithm | Paper | Description | Key Features | Status |
 |-----------|-------|-------------|--------------|--------|
-| VPG | [Policy Gradient Methods for Reinforcement Learning with Function Approximation](https://proceedings.neurips.cc/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf) | Basic policy gradient algorithm with value function baseline | - Simple implementation<br>- Value function baseline<br>- GAE support<br>- Continuous/Discrete actions | ✅ |
-| PPO | [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347) | On-policy algorithm with clipped objective | - Clipped surrogate objective<br>- Adaptive KL penalty<br>- Value function clipping<br>- Mini-batch updates | ✅ |
+| VPG | [Policy Gradient Methods for Reinforcement Learning with Function Approximation](https://proceedings.neurips.cc/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf) | Basic policy gradient algorithm with value function baseline | - Simple implementation<br>- Value function baseline<br>- GAE support<br>- Continuous/Discrete actions | 🚧 |
+| PPO | [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347) | On-policy algorithm with clipped objective | - Clipped surrogate objective<br>- Adaptive KL penalty<br>- Value function clipping<br>- Mini-batch updates | 🚧 |
 | SAC | [Soft Actor-Critic: Off-Policy Maximum Entropy Deep RL with a Stochastic Actor](https://arxiv.org/abs/1801.01290) | Off-policy maximum entropy algorithm | - Automatic entropy tuning<br>- Twin Q-functions<br>- Reparameterization trick<br>- Experience replay | 🚧 |
 | DQN | [Human-level control through deep reinforcement learning](https://www.nature.com/articles/nature14236) | Value-based algorithm with experience replay | - Double Q-learning<br>- Priority replay<br>- Dueling networks<br>- N-step returns | 🚧 |
 | DDPG | [Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971) | Off-policy algorithm for continuous control | - Deterministic policy<br>- Target networks<br>- Action noise<br>- Batch normalization | 🚧 |
