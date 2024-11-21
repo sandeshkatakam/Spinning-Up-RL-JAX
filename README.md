@@ -220,11 +220,11 @@ If you use this library in your research, please cite:
 
 ```bibtex
 @software{spinningup_jax,
-author = {Your Name},
+author = {Sandesh Katakam},
 title = {SpinningUp-RL-JAX: A JAX Implementation of Spinning Up RL Algorithms},
 year = {2024},
 publisher = {GitHub},
-url = {https://github.com/yourusername/SpinningUp-RL-JAX}
+url = {https://github.com/sandeshkatakam/SpinningUp-RL-JAX}
 ```
 
 ## Contributing
